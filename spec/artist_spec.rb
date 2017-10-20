@@ -17,6 +17,7 @@ describe 'Artist' do
   describe '#songs' do
     it 'keeps track of an artist\'s songs' do
       song_one = Song.new("Rock With You")
+      binding.pry
       song_two = Song.new("Smooth Criminal")
       artist.add_song(song_one)
       artist.add_song(song_two)
