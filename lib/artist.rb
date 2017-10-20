@@ -12,6 +12,8 @@ class Artist
     @songs << song
   end
 
+  def self.all? { |e|  }
+  
   def save
     @@all << @name
   end
