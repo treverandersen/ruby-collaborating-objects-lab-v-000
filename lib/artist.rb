@@ -7,7 +7,7 @@ class Artist
   end
 
   def songs
-    
+    return self.songs
   end
-  
+
 end
