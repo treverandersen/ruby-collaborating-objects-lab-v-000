@@ -25,7 +25,7 @@ class Artist
       @@all.find { |n| n.name == name}
     else
       new_name = self.new(name)
-      @@all << new_name 
+      @@all << new_name
       @@all.last
     end
   end
