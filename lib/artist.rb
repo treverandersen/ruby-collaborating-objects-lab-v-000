@@ -5,8 +5,6 @@ class Artist
     @name = name
   end
 
-  def add_song
-    Song.name << @@all
-  end
+
 
 end
