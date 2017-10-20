@@ -6,7 +6,7 @@ class Artist
     @songs = songs
   end
 
-  def add_song
+  def add_song(@songs)
     @songs.push(@@all)
   end
 
